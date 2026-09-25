@@ -1,1 +1,261 @@
 
+# GramBazaar AI
+
+## School Students के लिए आसान SRS Document
+
+### 1. Project क्या है?
+
+**GramBazaar AI** एक छोटी online shop है।
+
+इसमें गाँव और स्थानीय कारीगरों के products को website पर दिखाया जाएगा।
+
+Customer:
+
+**Product देखेगा → Quantity चुनेगा → Order करेगा → WhatsApp पर Seller को Order भेजेगा।**
+
+---
+
+### 2. Project का उद्देश्य
+
+इस project का मुख्य उद्देश्य गाँव के लोगों और छोटे sellers के products को online customers तक पहुँचाना है।
+
+AI की मदद से seller आसानी से:
+
+* Product की जानकारी लिख सकता है।
+* Product का Description बना सकता है।
+* Advertisement बना सकता है।
+* WhatsApp और Instagram के लिए message बना सकता है।
+
+---
+
+### 3. Project कैसे काम करेगा?
+
+पूरा system इस तरह काम करेगा:
+
+**Step 1 – Product**
+
+Seller का product website पर दिखाई देगा।
+
+↓
+
+**Step 2 – Customer**
+
+Customer product, image और price देखेगा।
+
+↓
+
+**Step 3 – Order**
+
+Customer quantity और अपनी जानकारी भरेगा।
+
+↓
+
+**Step 4 – WhatsApp**
+
+Customer "Order on WhatsApp" button दबाएगा।
+
+↓
+
+**Step 5 – Seller**
+
+Seller को WhatsApp पर customer का order मिल जाएगा।
+
+---
+
+### 4. AI का उपयोग
+
+Seller केवल product की basic information देगा।
+
+उदाहरण:
+
+**Product:** Bamboo Basket
+**Price:** ₹350
+**Material:** Bamboo
+
+AI इस जानकारी से अलग-अलग content बना सकता है।
+
+AI बना सकता है:
+
+* Product Title
+* Product Description
+* Keywords
+* WhatsApp Message
+* Instagram Caption
+* Advertisement
+* Hindi/English Translation
+
+#### Example
+
+**Input:**
+
+Bamboo Basket
+Price: ₹350
+Material: Bamboo
+
+**AI Output:**
+
+"सुंदर handmade Bamboo Basket, स्थानीय कारीगर द्वारा तैयार की गई। यह घर की सजावट और सामान रखने के लिए उपयोगी है। Price: ₹350."
+
+---
+
+### 5. Website के मुख्य Features
+
+**Home Page**
+Project और popular products दिखेंगे।
+
+**Products Page**
+सभी available products दिखाई देंगे।
+
+**Product Details**
+Product की image, name, price और description दिखाई जाएगी।
+
+**Order Form**
+Customer अपना:
+
+* Name
+* Phone Number
+* Address
+* Quantity
+
+भरेगा।
+
+**WhatsApp Order**
+Order की जानकारी WhatsApp message के रूप में seller को भेजी जाएगी।
+
+**AI Assistant**
+AI product description और marketing content बनाने में मदद करेगा।
+
+---
+
+### 6. इस्तेमाल होने वाले Tools
+
+| Tool             | इसका काम                   |
+| ---------------- | -------------------------- |
+| Google Stitch    | Website का Design          |
+| HTML             | Website का Structure       |
+| CSS              | Website को सुंदर बनाना     |
+| JavaScript       | Website में Actions जोड़ना |
+| Google Colab     | AI को Test करना            |
+| Hugging Face     | AI Models                  |
+| Gradio           | AI का Simple Interface     |
+| WhatsApp         | Customer का Order भेजना    |
+| GitHub           | Code को Store करना         |
+| Vercel / Netlify | Website को Live करना       |
+
+---
+
+### 7. 7-Day Project Plan
+
+**Day 1 – Idea + Design**
+
+Project को समझेंगे और Google Stitch में website का design बनाएंगे।
+
+**Output:** Website Design
+
+---
+
+**Day 2 – Website**
+
+HTML, CSS और JavaScript से website बनाएंगे।
+
+**Output:** Product Website
+
+---
+
+**Day 3 – WhatsApp Order**
+
+Order form बनाएंगे और WhatsApp Order button जोड़ेंगे।
+
+**Output:** Working WhatsApp Order System
+
+---
+
+**Day 4 – AI**
+
+Google Colab और Hugging Face की मदद से AI जोड़ेंगे।
+
+**Output:** AI Product Generator
+
+---
+
+**Day 5 – Marketing**
+
+AI की मदद से बनाएंगे:
+
+* WhatsApp Message
+* Instagram Caption
+* Advertisement
+* Translation
+
+**Output:** AI Marketing Assistant
+
+---
+
+**Day 6 – Integration**
+
+Website + AI + WhatsApp को एक साथ जोड़ेंगे।
+
+इसके बाद पूरा project test करेंगे।
+
+**Output:** Complete Working Project
+
+---
+
+**Day 7 – Live Website**
+
+Code को GitHub पर रखेंगे और Vercel/Netlify की मदद से website को internet पर Live करेंगे।
+
+**Output:** Live Website Link
+
+---
+
+### 8. Students को क्या सीखने को मिलेगा?
+
+इस project से students सीखेंगे:
+
+* Website कैसे बनती है।
+* HTML क्या है।
+* CSS कैसे काम करता है।
+* JavaScript का उपयोग कैसे होता है।
+* AI का basic उपयोग कैसे किया जाता है।
+* AI Model क्या होता है।
+* Google Colab कैसे इस्तेमाल करते हैं।
+* GitHub क्या है।
+* Website को Live कैसे करते हैं।
+* Real-life problem को technology से कैसे solve करते हैं।
+
+---
+
+### 9. पूरा Project एक लाइन में
+
+**Local Product → Website → AI Marketing → Customer → WhatsApp Order → Seller**
+
+---
+
+### 10. सबसे जरूरी बात
+
+Students को केवल coding नहीं सीखनी है।
+
+उन्हें यह समझना है कि **technology का उपयोग करके real-life problem को कैसे solve किया जाता है।**
+
+GramBazaar AI में:
+
+**Website** customer और seller को जोड़ती है।
+
+**AI** seller को product और marketing content बनाने में मदद करता है।
+
+**WhatsApp** customer का order seller तक पहुँचाता है।
+
+---
+
+## Final Result
+
+Project पूरा होने के बाद हमारे पास एक **Live Website** होगी।
+
+इस website पर:
+
+**Local Products दिखेंगे → AI से Product Content बनेगा → Customer Product खरीदेगा → WhatsApp पर Order भेजेगा → Seller को Order मिलेगा।**
+
+### GramBazaar AI
+
+**"Local Products को Digital Market से जोड़ने का आसान तरीका।"**
