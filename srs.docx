@@ -1,17 +1,17 @@
 
 # GramBazaar AI
 
-## School Students के लिए आसान SRS Document
+## Project SRS Document
 
 ### 1. Project क्या है?
 
-**GramBazaar AI** एक छोटी online shop है।
+GramBazaar AI एक छोटी online shop है।
 
 इसमें गाँव और स्थानीय कारीगरों के products को website पर दिखाया जाएगा।
 
 Customer:
 
-**Product देखेगा → Quantity चुनेगा → Order करेगा → WhatsApp पर Seller को Order भेजेगा।**
+Product देखेगा → Quantity चुनेगा → Order करेगा → WhatsApp पर Seller को Order भेजेगा।
 
 ---
 
@@ -32,31 +32,23 @@ AI की मदद से seller आसानी से:
 
 पूरा system इस तरह काम करेगा:
 
-**Step 1 – Product**
+Step 1 – Product
 
 Seller का product website पर दिखाई देगा।
 
-↓
-
-**Step 2 – Customer**
+Step 2 – Customer
 
 Customer product, image और price देखेगा।
 
-↓
-
-**Step 3 – Order**
+Step 3 – Order
 
 Customer quantity और अपनी जानकारी भरेगा।
 
-↓
-
-**Step 4 – WhatsApp**
+Step 4 – WhatsApp
 
 Customer "Order on WhatsApp" button दबाएगा।
 
-↓
-
-**Step 5 – Seller**
+Step 5 – Seller
 
 Seller को WhatsApp पर customer का order मिल जाएगा।
 
@@ -68,9 +60,9 @@ Seller केवल product की basic information देगा।
 
 उदाहरण:
 
-**Product:** Bamboo Basket
-**Price:** ₹350
-**Material:** Bamboo
+Product: Bamboo Basket
+Price: ₹350
+Material: Bamboo
 
 AI इस जानकारी से अलग-अलग content बना सकता है।
 
@@ -86,13 +78,12 @@ AI बना सकता है:
 
 #### Example
 
-**Input:**
-
+Input:
 Bamboo Basket
 Price: ₹350
 Material: Bamboo
 
-**AI Output:**
+AI Output:
 
 "सुंदर handmade Bamboo Basket, स्थानीय कारीगर द्वारा तैयार की गई। यह घर की सजावट और सामान रखने के लिए उपयोगी है। Price: ₹350."
 
@@ -100,16 +91,16 @@ Material: Bamboo
 
 ### 5. Website के मुख्य Features
 
-**Home Page**
+Home Page
 Project और popular products दिखेंगे।
 
-**Products Page**
+Products Page
 सभी available products दिखाई देंगे।
 
-**Product Details**
+Product Details
 Product की image, name, price और description दिखाई जाएगी।
 
-**Order Form**
+Order Form
 Customer अपना:
 
 * Name
@@ -119,10 +110,10 @@ Customer अपना:
 
 भरेगा।
 
-**WhatsApp Order**
+WhatsApp Order
 Order की जानकारी WhatsApp message के रूप में seller को भेजी जाएगी।
 
-**AI Assistant**
+AI Assistant
 AI product description और marketing content बनाने में मदद करेगा।
 
 ---
@@ -144,72 +135,7 @@ AI product description और marketing content बनाने में मद
 
 ---
 
-### 7. 7-Day Project Plan
-
-**Day 1 – Idea + Design**
-
-Project को समझेंगे और Google Stitch में website का design बनाएंगे।
-
-**Output:** Website Design
-
----
-
-**Day 2 – Website**
-
-HTML, CSS और JavaScript से website बनाएंगे।
-
-**Output:** Product Website
-
----
-
-**Day 3 – WhatsApp Order**
-
-Order form बनाएंगे और WhatsApp Order button जोड़ेंगे।
-
-**Output:** Working WhatsApp Order System
-
----
-
-**Day 4 – AI**
-
-Google Colab और Hugging Face की मदद से AI जोड़ेंगे।
-
-**Output:** AI Product Generator
-
----
-
-**Day 5 – Marketing**
-
-AI की मदद से बनाएंगे:
-
-* WhatsApp Message
-* Instagram Caption
-* Advertisement
-* Translation
-
-**Output:** AI Marketing Assistant
-
----
-
-**Day 6 – Integration**
-
-Website + AI + WhatsApp को एक साथ जोड़ेंगे।
-
-इसके बाद पूरा project test करेंगे।
-
-**Output:** Complete Working Project
-
----
-
-**Day 7 – Live Website**
-
-Code को GitHub पर रखेंगे और Vercel/Netlify की मदद से website को internet पर Live करेंगे।
-
-**Output:** Live Website Link
-
----
-
-### 8. Students को क्या सीखने को मिलेगा?
+### 7. Students को क्या सीखने को मिलेगा?
 
 इस project से students सीखेंगे:
 
@@ -226,25 +152,25 @@ Code को GitHub पर रखेंगे और Vercel/Netlify की मद
 
 ---
 
-### 9. पूरा Project एक लाइन में
+### 8. पूरा Project एक लाइन में
 
 **Local Product → Website → AI Marketing → Customer → WhatsApp Order → Seller**
 
 ---
 
-### 10. सबसे जरूरी बात
+### 9. सबसे जरूरी बात
 
 Students को केवल coding नहीं सीखनी है।
 
-उन्हें यह समझना है कि **technology का उपयोग करके real-life problem को कैसे solve किया जाता है।**
+उन्हें यह समझना है कि technology का उपयोग करके real-life problem को कैसे solve किया जाता है।
 
 GramBazaar AI में:
 
-**Website** customer और seller को जोड़ती है।
+Website customer और seller को जोड़ती है।
 
-**AI** seller को product और marketing content बनाने में मदद करता है।
+AI seller को product और marketing content बनाने में मदद करता है।
 
-**WhatsApp** customer का order seller तक पहुँचाता है।
+WhatsApp customer का order seller तक पहुँचाता है।
 
 ---
 
